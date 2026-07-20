@@ -15,14 +15,20 @@
 
       <section class="grid">
         <article class="card">
-          <h2>Counter App</h2>
-          <p class="value" id="counter-value">0</p>
-          <div class="buttons">
-            <button class="btn" id="decrement">-</button>
-            <button class="btn reset" id="reset">Reset</button>
-            <button class="btn" id="increment">+</button>
+          <h2>Simple Calculator</h2>
+          <div class="calculator">
+            <input type="number" id="num1" placeholder="First number" />
+            <input type="number" id="num2" placeholder="Second number" />
+            <div class="buttons calc-buttons">
+              <button class="btn" data-op="add">+</button>
+              <button class="btn" data-op="subtract">-</button>
+              <button class="btn" data-op="multiply">×</button>
+              <button class="btn" data-op="divide">÷</button>
+            </div>
+            <p class="result" id="result">Result: 0</p>
           </div>
         </article>
+        
 
         <article class="card">
           <h2>Digital Clock</h2>
@@ -36,19 +42,13 @@
           <p class="color-code" id="color-code">#ffffff</p>
           <button class="btn full" id="color-btn">Generate Color</button>
         </article>
-
-        <article class="card">
-          <h2>Simple Calculator</h2>
-          <div class="calculator">
-            <input type="number" id="num1" placeholder="First number" />
-            <input type="number" id="num2" placeholder="Second number" />
-            <div class="buttons calc-buttons">
-              <button class="btn" data-op="add">+</button>
-              <button class="btn" data-op="subtract">-</button>
-              <button class="btn" data-op="multiply">×</button>
-              <button class="btn" data-op="divide">÷</button>
-            </div>
-            <p class="result" id="result">Result: 0</p>
+         <article class="card">
+          <h2>Counter App</h2>
+          <p class="value" id="counter-value">0</p>
+          <div class="buttons">
+            <button class="btn" id="decrement">-</button>
+            <button class="btn reset" id="reset">Reset</button>
+            <button class="btn" id="increment">+</button>
           </div>
         </article>
       </section>
